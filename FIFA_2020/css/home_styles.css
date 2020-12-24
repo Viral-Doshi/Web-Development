@@ -1,0 +1,515 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+header,div{display: block;}
+
+.header {
+	background: #000000;
+	padding: 2em 0;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	transition: transform .2s;
+}
+.logo:hover {
+    transform: scale(1.3);
+}
+
+.navigation {
+	width: 75%;
+	float: right;
+}
+
+ul.navig {
+	padding: 0;
+	width: 65%;
+	float: left;
+	margin-top: 10px;
+}
+
+ul.navig li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+ul.navig li a {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: #fff;
+	font-weight: 700;
+}
+
+ul.navig li a:hover {
+	color: #ff7105;
+
+}
+
+.search-bar {
+	width: 33%;
+	float: right;
+}
+
+.search-bar input[type="text"] {
+	width: 70%;
+	padding: 10px;
+	border: 0;
+	background: #4fbfa8;
+	margin: 0 -4px 0 0;
+	display: inline-block;
+	outline: none;
+	-webkit-appearance: none;
+	vertical-align: -webkit-baseline-middle;
+	color: #fff;
+}
+
+.search-bar input[type="submit"] {
+	width: 20%;
+	padding: 10px;
+	background: #ff7105 url(../images/search.png)no-repeat 20px;
+	outline: none;
+	-webkit-appearance: none;
+	border: 0;
+	display: inline-block;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.banner {
+	background: url(../images/banner.jpg)no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	min-height: 650px;
+}
+.banner-bot {
+    padding: 4em 0;
+    text-align: center;
+}
+.banner-bot h2 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #000;
+    margin: 0em 0 0.5em 0;
+}
+
+.banner-bot p {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.8em;
+    margin: 0 0 0.5em;
+}
+
+.profile {
+	position: absolute;
+	top: 36%;
+	left: 20%;
+	transition: transform .2s;
+}
+
+.profile:hover {
+    transform: scale(1.3);
+}
+
+.cards {
+	position: absolute;
+	top: 35%;
+	left: 23%;
+}
+
+/*.cards:hover {
+    transform: scale(1.3);
+}*/
+.log-out {
+	position: absolute;
+	top: 13%;
+	left: 68%;
+	transition: width 1.5s, height 1.5s, transform 1.5s;
+}
+.log-out:hover{
+	color: 	#FF0000;
+	transform: rotate(180deg);
+}
+.contact {}
+
+.map iframe {
+	width: 100%;
+	height: 250px;
+}
+
+.map {
+	margin: 1em 0;
+}
+
+.contact-box {
+	width: 70%;
+	float: left;
+	margin-right: 3%;
+}
+
+.address-box {
+	width: 27%;
+	float: left;
+}
+
+.text {
+	margin: 1em 0;
+}
+
+.text input[type="text"] {
+	width: 31%;
+	margin-right: 2%;
+	padding: 10px;
+	border: 1px solid #ff7105;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+.text textarea {
+	width: 97.7%;
+	height: 250px;
+	border: 1px solid #ff7105;
+	outline: none;
+	-webkit-appearance: none;
+	padding: 10px;
+	resize: none;
+}
+
+.text-but {
+	margin: 1em 0;
+	text-align: center;
+}
+
+.text-but input[type="submit"],
+.text-cmt input[type="submit"] {
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	background: #ff7105;
+	padding: 10px 20px;
+	outline: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	border: 0;
+}
+
+.text-but input[type="submit"]:hover,
+.text-cmt input[type="submit"]:hover {
+	background: #4fbfa8;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+.address-box h4 {
+	font-size: 0.875em;
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+
+.address-box p {
+	font-size: 0.8em;
+	font-weight: 100;
+	line-height: 1.6em;
+	margin: 0.5em 0;
+}
+
+.address-box a {
+	font-size: 0.8em;
+	color: #4fbfa8;
+	font-weight: 100;
+}
+
+/*-- Contact Page Ends Here --*/
+/*-- Single Page Starts Here --*/
+.comment-box {
+	margin: 2em 0;
+}
+
+.text-cmt {
+	margin: 1em 0;
+}
+
+.text-cmt input[type="text"] {
+	width: 47%;
+	margin-right: 2%;
+	padding: 10px;
+	border: 1px solid #ff7105;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+.text-cmt textarea {
+	width: 96.4%;
+	height: 150px;
+	border: 1px solid #ff7105;
+	outline: none;
+	-webkit-appearance: none;
+	padding: 10px;
+	resize: none;
+}
+.games {
+	padding: 4em 0 2em;
+}
+
+.page-path {
+	margin: 0.5em 0 1em;
+}
+
+.page-path p {
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	float: right;
+}
+ul.path-list li.act {
+	color: #ff7105;
+}
+h3.page-header {
+	font-size: 1.2em;
+	color: #ff7105;
+	font-weight: 500;
+	margin: 0.5em 0 1em;
+	text-transform: uppercase;
+}
+.img_bg {
+	opacity: 0.5;
+}
+
+::placeholder{
+    color: black;
+    opacity: 0.65;
+}
+.car_table {
+	position: absolute;
+	top: 40%;
+	left: 25%;
+}
+.car_form {
+	position: absolute;
+	top:30%;
+	left: 35%;
+}
+
+.sub-but input[type="submit"],
+.sub-cmt input[type="submit"] {
+	position: absolute;
+	left:110%;
+	top: -1.1%;
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	background: #ff7105;
+	padding: 10px 20px;
+	outline: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	border: 0;
+}
+.car_form option{
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	/*background: #ff7105;*/
+	background: black;
+	padding: 10px ;
+	outline: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	border: 0;
+
+}
+.car_form optgroup{
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	/*background: #ff7105;*/
+	background: black;
+	padding: 10px ;
+	outline: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	border: 0;
+
+}
+.car_form select{
+	top: 0%;
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	background: #ff7105;
+	-webkit-appearance: none;
+	padding: 10px ;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+
+}
+.pr_coins {
+	position: absolute;
+	left:82%;
+	top: 24%;
+	color: yellow;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+.pr_details {
+	position: absolute;
+	left:13%;
+	top: 75%;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+/*.pr_details:hover {
+	color:#ff7105 ;
+	transition: 0.5;
+	font-size: 1.5em;
+	font-weight: 550;
+
+}*/
+.pr_cards {
+	position: absolute;
+	left:8%;
+	top: 125%;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.pr_cards  input[type="submit"]{
+	color: white;
+	font-size: inherit;
+	font-weight: 300;
+
+}
+.pr_name {
+	position: absolute;
+	left:45%;
+	top: 24%;
+	color: white;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+.pr_cards_max  input[type="submit"]{
+	color: red;
+	font-size: inherit;
+	font-weight: 300;
+
+}
+.ar_coins {
+	position: absolute;
+	left:22%;
+	top: 24%;
+	color: yellow;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+.event_details {
+	position: absolute;
+	left:37%;
+	top: 30%;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.events_highlight {
+    padding: 30px 40px;
+    text-align: center;
+    margin: 0px;
+    background: rgba(218, 218, 218, 0.30);
+    color: #000;
+}
+.pr1_details {
+	position: absolute;
+	left:37%;
+	top: 30%;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.events_card_details {
+	position: absolute;
+	left:40%;
+	top: 35%;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.all_cards_but input[type="submit"]{
+	position: absolute;
+	left:110%;
+	top: -1.1%;
+	font-size: 0.875em;
+	color: #fff;
+	text-transform: uppercase;
+	background: #ff7105;
+	padding: 10px 20px;
+}
+.card_pos{
+	position: absolute;
+	left:10%;
+	top: 60%;
+	color: white;
+	font-size: 1.1em;
+	font-weight: 500;
+
+}
+.pr_card_details {
+	position: absolute;
+	left:32%;
+	top:31%;
+	color: white;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+.pr_card_name {
+	position: absolute;
+	left:32%;
+	top:15%;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.pr_loc {
+	position: absolute;
+	left:35%;
+	top:89.8%;
+}
