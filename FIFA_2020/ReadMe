@@ -1,0 +1,24 @@
+This is a fully functinal website designed for a Football Game!
+
+MySQL Version:
+WAMP Server Version:
+
+Please go through the following steps before running this website.
+
+STEP 1:
+Please ensure you are connected to your WAMP ( or any other ) Servers and have the Above MySQL version. ( Latest when I am uploading this )
+
+STEP 2:
+Please go to localhost/MySQL. Import fifa.sql. That will create the required database, which is essential to fetch data. ( Google How to import .sql files if you are not familiar )
+
+STEP 3:
+Open this directory from your localhost and click on any php page. ( This will lead you to the Login Page )
+
+STEP 4:
+Enter the login credentials. (eg. *ID: John*  *Password: 1234* ) These are the user-side login credentails.
+
+STEP 5:
+For viewing the admin side of the page use any admin credentials. (eg. *ID: ABC*  *Password: 1234* )
+
+STEP 6:
+Log out button will log you out and lead you back to login page.
