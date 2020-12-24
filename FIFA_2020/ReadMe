@@ -9,7 +9,7 @@ STEP 1:
 Please ensure you are connected to your WAMP ( or any other ) Servers and have the Above MySQL version. ( Latest when I am uploading this )
 
 STEP 2:
-Please go to localhost/MySQL. Import fifa.sql. That will create the required database, which is essential to fetch data. ( Google How to import .sql files if you are not familiar )
+Please go to localhost/MySQL. Import fifa(4).sql. That will create the required database, which is essential to fetch data. ( Google How to import .sql files if you are not familiar )
 
 STEP 3:
 Open this directory from your localhost and click on any php page. ( This will lead you to the Login Page )
